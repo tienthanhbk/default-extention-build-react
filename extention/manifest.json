@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "My app",
+  "description": "my app",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background/js/background.js"],
+    "persistent": true
+  }
+}

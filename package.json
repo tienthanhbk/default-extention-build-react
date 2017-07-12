@@ -1,0 +1,25 @@
+{
+  "name": "newtab",
+  "version": "1.0.0",
+  "description": "rebuild new tab by react",
+  "main": "index.js",
+  "scripts": {
+    "build-auto": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanhbt",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.2.0"
+  }
+}
